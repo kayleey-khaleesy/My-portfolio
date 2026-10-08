@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Kayleey Moroka — Front-End Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <h1>Kayleey <span class="brand-accent">M</span></h1>
+          <p class="tag">Creative Web Developer • AI Enthusiast</p>
+        </div>
+
+        <nav class="nav">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="primary-nav"
+          >
+            ☰
+          </button>
+          <ul id="primary-nav" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- HERO / HOME -->
+      <section id="home" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-left">
+            <h2 class="hello">Hi, I'm <strong>Kayleey Moroka</strong></h2>
+            <h3 class="typing" aria-live="polite"></h3>
+            <p class="hero-sub">
+              I build responsive, accessible and visually delightful web
+              experiences using HTML, CSS, JavaScript, and AI APIs.
+            </p>
+            <h4 class="contact-line">
+              <a class="contact-item" href="tel:+27713456781">
+                <svg
+                  class="icon icon-phone"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M6.6 10.2a15.1 15.1 0 006.6 6.6l2.2-2.2a1 1 0 01.9-.25c1 .25 2.1.38 3.2.38a1 1 0 011 1V20a1 1 0 01-1 1C9.5 21 3 14.5 3 6a1 1 0 011-1h2.5a1 1 0 011 1c0 1.1.13 2.2.38 3.2a1 1 0 01-.24.9L6.6 10.2z"
+                  />
+                </svg>
+                <span class="sr-only">Phone:</span>
+                <span class="contact-text">+27 71 345 6781</span>
+              </a>
+
+              <span class="divider" aria-hidden="true">•</span>
+
+              <span class="contact-item">
+                <svg
+                  class="icon icon-location"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M12 2C8.1 2 5 5.1 5 9c0 5.3 7 13 7 13s7-7.7 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z"
+                  />
+                </svg>
+                <span class="sr-only">Location:</span>
+                <span class="contact-text">South Africa</span>
+              </span>
+
+              <span class="divider" aria-hidden="true">•</span>
+
+              <a class="contact-item" href="mailto:kayleeyroxanne@gmail.com">
+                <svg
+                  class="icon icon-mail"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path
+                    d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"
+                  />
+                </svg>
+                <span class="sr-only">Email:</span>
+                <span class="contact-text">kayleeyroxanne@gmail.com</span>
+              </a>
+            </h4>
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">View My Work</a>
+              <a class="btn ghost" href="#contact">Hire / Contact</a>
+            </div>
+          </div>
+
+          <div class="hero-right">
+            <!-- Replace src with your photo path if you want a real photo -->
+            <div class="avatar-wrap">
+              <img
+                src="image/SASO.jpg"
+                alt="Profile photo of Kayleey M"
+                class="avatar"
+              />
+              <div class="avatar-glow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <p class="lead">
+            I am a motivated and detail-oriented Front-End Developer with strong
+            fundamentals in HTML, CSS and JavaScript. I build accessible and
+            responsive interfaces, integrate APIs, and explore AI tools to craft
+            smarter user experiences. I love turning creative ideas into
+            reliable, production-ready code.
+          </p>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section section-soft">
+        <div class="container">
+          <h2 class="section-title">Education</h2>
+          <div class="card edu-card">
+            <h3>SheCodes Foundation</h3>
+            <p>
+              Front-End Development Certificate — Focused on HTML, CSS,
+              JavaScript and responsive design.
+            </p>
+            <span class="muted">Completed 2024</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section">
+        <div class="container">
+          <h2 class="section-title">Experience</h2>
+          <div class="card exp-card">
+            <h3>Entry-Level Front-End Developer</h3>
+            <p>
+              Proficient in crafting interactive and visually appealing websites
+              using HTML, CSS and JavaScript. Skilled at integrating third-party
+              APIs and leveraging AI tools for enhanced user experiences.
+              Committed to clean, maintainable code and continuous learning.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section id="projects" class="projects-section">
+        <h2>Projects</h2>
+        <p class="projects-intro">
+          A collection of my recent front-end development projects using HTML,
+          CSS, JavaScript, APIs and modern hosting tools like GitHub Pages and
+          Netlify.
+        </p>
+
+        <div class="project-card">
+          <h3>AI Library Book Generator</h3>
+          <p>
+            A JavaScript-powered AI generator that recommends books based on
+            category input. Built using APIs and hosted on Netlify.
+          </p>
+          <a
+            href="https://library-books-generator.netlify.app"
+            target="_blank"
+            class="demo-btn"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/kayleey-khaleesy/Library-books-generator"
+            target="_blank"
+            class="code-btn"
+            >GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>World Clock</h3>
+          <p>
+            A world time zone converter displaying multiple global time zones in
+            real time. Built with JavaScript date/time functions and animations.
+          </p>
+          <a
+            href="https://snazzy-phoenix-678760.netlify.app"
+            target="_blank"
+            class="demo-btn"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/kayleey-khaleesy/world-clock-coding"
+            target="_blank"
+            class="code-btn"
+            >GitHub</a
+          >
+        </div>
+
+        <div class="project-card">
+          <h3>Weather App</h3>
+          <p>
+            A responsive weather forecasting app powered by a live weather API.
+            Includes temperature, humidity and real-time conditions.
+          </p>
+          <a
+            href="https://moonlit-sable-a8e045.netlify.app"
+            target="_blank"
+            class="demo-btn"
+            >Live Demo</a
+          >
+          <a
+            href="https://github.com/kayleey-khaleesy/forecast-weather"
+            target="_blank"
+            class="code-btn"
+            >GitHub</a
+          >
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="skills-section">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+          <div class="skill-card">HTML</div>
+          <div class="skill-card">CSS</div>
+          <div class="skill-card">JavaScript</div>
+          <div class="skill-card">APIs</div>
+          <div class="skill-card">Git</div>
+          <div class="skill-card">GitHub</div>
+          <div class="skill-card">Hosting</div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-soft contact-section">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="lead">
+            Recruiters — send me a message and I’ll get back to you. Or email
+            directly:
+            <a href="mailto:kayleeyroxanne@gmail.com"
+              >kayleeyroxanne@gmail.com</a
+            >
+          </p>
+
+          <form
+            class="contact-form"
+            action="https://formspree.io/f/your-form-id"
+            method="POST"
+          >
+            <div class="form-row">
+              <input name="name" type="text" placeholder="Your name" required />
+              <input
+                name="_replyto"
+                type="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <textarea
+              name="message"
+              rows="6"
+              placeholder="Message for Kayleey"
+              required
+            ></textarea>
+            <div class="form-row form-row-actions">
+              <button type="submit" class="btn primary">Send Message</button>
+              <button type="reset" class="btn ghost">Reset</button>
+            </div>
+          </form>
+
+          <div class="contact-socials">
+            <a
+              href="https://www.linkedin.com/in/karabelo-moroka-3ba180222"
+              target="_blank"
+              rel="noopener"
+              >LinkedIn</a
+            >
+            <a
+              href="https://github.com/kayleey-khaleesy"
+              target="_blank"
+              rel="noopener"
+              >GitHub</a
+            >
+            <a href="mailto:kayleeyroxanne@gmail.com">Email</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© 2025 Karabelo Moroka — Built with 💖 and curiosity</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
